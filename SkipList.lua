@@ -86,11 +86,12 @@ function SkipList.__index:Pop()
 		if self[h] ~= top then break end
 		self[h] = top[h]
 	end
-	return top.value
+	return top and top.value
 end
 
 function SkipList.__index:Top()
-	return self[1]
+	local top = self[1]
+	return top and top.value
 end
 
 -- The code block below is exclusively for pretty printing the Skip List, and not meant to be clean at all
