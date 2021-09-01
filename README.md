@@ -110,9 +110,10 @@ print(skipList)
 - These bounds are all achieved with simple code that works great in practice!
 - AVL/red-black/2-3-4 trees are more complicated to implement, and take up more space (see the paper for a comparative analysis)
 
-Maybe this scheme deserves a mention as being competitive with the other Priority Queues. It could be the first (competitive) data structure (on Wikipedia) that achieves Θ(1) amortized complexity for the delete-min operation.
+Maybe this scheme deserves a mention as being competitive with the other Priority Queues. It could be the first (competitive) data structure (listed on Wikipedia) that achieves Θ(1) amortized complexity for the delete-min operation.
 https://en.wikipedia.org/wiki/Priority_queue#Summary_of_running_times
 
 ## Related art
 https://github.com/yfismine/1-2-3-DeterminSkipList
+
 https://www.drdobbs.com/web-development/alternating-skip-lists/184404217
